@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SafeTemp HVAC | AC &amp; Heating Repair in Houston, North Houston &amp; Sienna</title>
+  <meta name="description" content="SafeTemp HVAC keeps Houston comfortable. AC repair, heating, installs and maintenance from our North Houston and Sienna offices. Call or text (346) 268-7833 or request an appointment online." />
+  <link rel="canonical" href="https://safetemphvac.com/" />
+  <meta property="og:title" content="SafeTemp HVAC | Houston AC &amp; Heating" />
+  <meta property="og:description" content="AC repair, heating, installs and maintenance across Greater Houston. Call or text (346) 268-7833." />
+  <meta property="og:url" content="https://safetemphvac.com/" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b2545" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HVACBusiness",
+    "name": "SafeTemp HVAC",
+    "url": "https://safetemphvac.com",
+    "telephone": "+1-346-268-7833",
+    "areaServed": ["Houston","Spring","The Woodlands","Humble","Kingwood","Tomball","Cypress","Katy","Sugar Land","Missouri City","Sienna","Richmond","Rosenberg","Pearland","Fulshear","Stafford"],
+    "department": [
+      {"@type":"HVACBusiness","name":"SafeTemp HVAC – North Houston","telephone":"+1-346-268-7833","address":{"@type":"PostalAddress","addressLocality":"Houston","addressRegion":"TX","addressCountry":"US"}},
+      {"@type":"HVACBusiness","name":"SafeTemp HVAC – Sienna","telephone":"+1-346-268-7833","address":{"@type":"PostalAddress","addressLocality":"Missouri City","addressRegion":"TX","addressCountry":"US"}}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a href="#top" class="logo" aria-label="SafeTemp HVAC home">
+        <svg class="logo-mark" viewBox="0 0 40 44" aria-hidden="true">
+          <path d="M20 2 36 8v13c0 10.5-6.8 18.3-16 21C10.8 39.3 4 31.5 4 21V8Z" fill="var(--navy)"/>
+          <rect x="17" y="10" width="6" height="17" rx="3" fill="#fff"/>
+          <circle cx="20" cy="29" r="5.5" fill="var(--heat)"/>
+          <rect x="18.6" y="16" width="2.8" height="13" rx="1.4" fill="var(--heat)"/>
+        </svg>
+        <span class="logo-text">Safe<b>Temp</b><small>HVAC</small></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#services">Services</a>
+        <a href="#locations">Locations</a>
+        <a href="#why">Why SafeTemp</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#schedule" class="btn btn-ghost nav-cta">Book online</a>
+      </nav>
+
+      <a href="tel:+13462687833" class="btn btn-heat header-call">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1Z"/></svg>
+        <span>Call or text (346) 268-7833</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Greater Houston · North Houston · Sienna</p>
+          <h1>Houston runs hot.<br /><span class="grad">Your home doesn't have to.</span></h1>
+          <p class="lede">SafeTemp HVAC repairs, installs and maintains air conditioning and heating systems across Houston. You get upfront pricing, techs who show up on time, and a home that stays comfortable all year.</p>
+          <div class="hero-ctas">
+            <a href="#schedule" class="btn btn-heat btn-lg">Request an appointment</a>
+            <a href="tel:+13462687833" class="btn btn-outline btn-lg">Call or text (346) 268-7833</a>
+          </div>
+          <ul class="trust">
+            <li><i></i>Upfront, flat-rate pricing</li>
+            <li><i></i>All makes &amp; models</li>
+            <li><i></i>Same-day service when available</li>
+          </ul>
+        </div>
+
+        <!-- Interactive thermostat -->
+        <div class="thermo-card" aria-label="Interactive thermostat illustration">
+          <div class="thermo-top">
+            <div>
+              <span class="thermo-label">Outside · Houston</span>
+              <span class="thermo-outside">98°<small>F</small></span>
+            </div>
+            <span class="humid">💧 74% humidity</span>
+          </div>
+
+          <div class="dial" id="dial" data-mode="cool">
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <circle cx="100" cy="100" r="84" class="dial-track"/>
+              <circle cx="100" cy="100" r="84" class="dial-fill" id="dialFill"/>
+            </svg>
+            <div class="dial-center">
+              <span class="dial-mode" id="dialMode">Cooling to</span>
+              <span class="dial-temp"><span id="setTemp">72</span>°</span>
+              <span class="dial-sub">SafeTemp comfort</span>
+            </div>
+          </div>
+
+          <div class="thermo-controls">
+            <button class="t-btn" id="tempDown" aria-label="Lower temperature">−</button>
+            <div class="mode-switch" role="group" aria-label="Mode">
+              <button class="mode active" data-mode="cool">❄ Cool</button>
+              <button class="mode" data-mode="heat">🔥 Heat</button>
+            </div>
+            <button class="t-btn" id="tempUp" aria-label="Raise temperature">+</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICE BAR ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>AC Repair</span><span>Heating</span><span>New System Installs</span><span>Maintenance Plans</span><span>Duct Cleaning</span><span>Indoor Air Quality</span><span>Smart Thermostats</span><span>Heat Pumps</span>
+        <span>AC Repair</span><span>Heating</span><span>New System Installs</span><span>Maintenance Plans</span><span>Duct Cleaning</span><span>Indoor Air Quality</span><span>Smart Thermostats</span><span>Heat Pumps</span>
+      </div>
+    </div>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">What we do</p>
+          <h2>Heating and cooling, from start to finish</h2>
+          <p>Whether it's a noisy compressor or a full system replacement, we handle it from the first visit to the final tune-up.</p>
+        </div>
+
+        <div class="services">
+          <article class="service">
+            <div class="s-icon cool"><svg viewBox="0 0 24 24"><path d="M12 2v20M4.9 4.9l14.2 14.2M2 12h20M4.9 19.1 19.1 4.9M9 3l3 3 3-3M9 21l3-3 3 3M3 9l3 3-3 3M21 9l-3 3 3 3"/></svg></div>
+            <h3>AC Repair</h3>
+            <p>Warm air, strange noises, frozen coils, a system that won't start. We find the problem and fix it properly.</p>
+            <a href="#schedule" data-service="AC Repair" class="s-link">Book a repair →</a>
+          </article>
+          <article class="service">
+            <div class="s-icon heat"><svg viewBox="0 0 24 24"><path d="M12 22c4 0 7-2.7 7-6.8 0-3.4-2.2-5.6-3.5-7.2-.3 2-1.3 3.2-2.5 3.7C13.5 8 12 4.5 9 2c.3 3.5-4 6.6-4 11.2C5 19.3 8 22 12 22Z"/></svg></div>
+            <h3>Heating &amp; Furnaces</h3>
+            <p>Houston winters are short, but a cold snap still hurts. We repair and install furnaces and heat pumps.</p>
+            <a href="#schedule" data-service="Heating" class="s-link">Book heating service →</a>
+          </article>
+          <article class="service">
+            <div class="s-icon navy"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg></div>
+            <h3>New System Installs</h3>
+            <p>We size the system to your home and quote honestly, and we&rsquo;ll help you find rebates. Financing is coming soon.</p>
+            <a href="#schedule" data-service="New System Estimate" class="s-link">Get a free estimate →</a>
+          </article>
+          <article class="service">
+            <div class="s-icon cool"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4Z"/></svg></div>
+            <h3>Maintenance Plans</h3>
+            <p>Two tune-ups a year keep your system running efficiently and help it last longer. Members also get priority scheduling.</p>
+            <a href="#schedule" data-service="Maintenance / Tune-up" class="s-link">Schedule a tune-up →</a>
+          </article>
+          <article class="service">
+            <div class="s-icon heat"><svg viewBox="0 0 24 24"><path d="M3 8h11a3 3 0 1 0-3-3M3 12h15a3 3 0 1 1-3 3M3 16h7"/></svg></div>
+            <h3>Indoor Air Quality</h3>
+            <p>Filtration, UV lights, dehumidifiers and duct cleaning. Humid Gulf Coast air needs more than an AC alone.</p>
+            <a href="#schedule" data-service="Indoor Air Quality" class="s-link">Breathe easier →</a>
+          </article>
+          <article class="service">
+            <div class="s-icon navy"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2.5"/></svg></div>
+            <h3>Smart Thermostats</h3>
+            <p>We install and set up Wi-Fi thermostats so you can control your home from your phone and lower your energy bill.</p>
+            <a href="#schedule" data-service="Thermostat" class="s-link">Upgrade your controls →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOCATIONS ============ -->
+    <section class="section locations" id="locations">
+      <div class="wrap">
+        <div class="section-head light">
+          <p class="eyebrow">Where to find us</p>
+          <h2>Two home bases.<br />One comfort standard.</h2>
+          <p>With one office north of the city and one south, we're usually closer than you'd expect.</p>
+        </div>
+
+        <div class="bases">
+          <article class="base base-north">
+            <div class="base-tag">Home Base · North</div>
+            <h3>North Houston Home Base</h3>
+            <p class="base-tagline">Serving everything north of the Beltway.</p>
+            <ul class="areas">
+              <li>North Houston Area</li><li>Spring</li><li>The Woodlands</li><li>Humble</li><li>Kingwood</li><li>Tomball</li><li>Cypress</li><li>Aldine</li><li>Conroe</li>
+            </ul>
+            <div class="base-actions">
+              <a href="tel:+13462687833" class="btn btn-white">Call or text North Houston</a>
+              <a href="#schedule" data-office="North Houston Home Base" class="btn btn-clear">Book here →</a>
+            </div>
+          </article>
+
+          <article class="base base-sienna">
+            <div class="base-tag">Home Base · South</div>
+            <h3>Sienna Home Base</h3>
+            <p class="base-tagline">South-side service with the same speed and care, covering Fort Bend and beyond.</p>
+            <ul class="areas">
+              <li>South Houston Area</li><li>Missouri City</li><li>Sugar Land</li><li>Richmond</li><li>Rosenberg</li><li>Fresno</li><li>Stafford</li><li>Pearland</li><li>Fulshear</li>
+            </ul>
+            <div class="base-actions">
+              <a href="tel:+13462687833" class="btn btn-white">Call or text Sienna</a>
+              <a href="#schedule" data-office="Sienna Home Base" class="btn btn-clear">Book here →</a>
+            </div>
+          </article>
+        </div>
+        <p class="not-listed">Don't see your neighborhood? We likely still cover it. <a href="tel:+13462687833">Call or text us</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ WHY ============ -->
+    <section class="section" id="why">
+      <div class="wrap why-grid">
+        <div class="section-head left">
+          <p class="eyebrow">Why SafeTemp</p>
+          <h2>Comfort you can count on, from people you can trust</h2>
+          <p>The name says it: we keep your home at a <em>safe</em> temperature. When it's 100° with the heat index, that matters for your kids, your parents and your pets.</p>
+          <a href="#schedule" class="btn btn-heat">Book your visit</a>
+        </div>
+        <ol class="why-list">
+          <li><span>01</span><div><h3>Price before we start</h3><p>You approve the price before we start working. No surprises on the invoice.</p></div></li>
+          <li><span>02</span><div><h3>On time, every time</h3><p>You get an arrival window and a text when your tech is on the way.</p></div></li>
+          <li><span>03</span><div><h3>Repair before replace</h3><p>If a repair will solve the problem, we'll say so. We only recommend a new system when it actually makes sense.</p></div></li>
+          <li><span>04</span><div><h3>Clean, respectful techs</h3><p>We wear shoe covers, clean up after ourselves and explain the work in plain English.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SCHEDULE ============ -->
+    <section class="section schedule" id="schedule">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Book online</p>
+          <h2>Request an appointment</h2>
+          <p>Pick a day and time window that works for you. We'll call or text to confirm, usually within one business hour.</p>
+        </div>
+
+        <form class="card form" id="scheduleForm" novalidate>
+          <input type="hidden" name="_subject" value="New Appointment Request – SafeTemp HVAC" />
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+          <fieldset>
+            <legend><b>1</b> What do you need?</legend>
+            <div class="chips" id="serviceChips">
+              <label><input type="radio" name="service" value="AC Repair" required /><span>❄ AC Repair</span></label>
+              <label><input type="radio" name="service" value="Heating" /><span>🔥 Heating</span></label>
+              <label><input type="radio" name="service" value="Maintenance / Tune-up" /><span>🛠 Tune-up</span></label>
+              <label><input type="radio" name="service" value="New System Estimate" /><span>🏠 New System Estimate</span></label>
+              <label><input type="radio" name="service" value="Indoor Air Quality" /><span>🌬 Air Quality</span></label>
+              <label><input type="radio" name="service" value="Thermostat" /><span>🌡 Thermostat</span></label>
+              <label><input type="radio" name="service" value="Other" /><span>Other</span></label>
+            </div>
+            <label class="urgent"><input type="checkbox" name="urgent" value="Yes – system is down" /> My system is completely down (no cooling or heating)</label>
+          </fieldset>
+
+          <fieldset>
+            <legend><b>2</b> When works for you?</legend>
+            <div class="date-strip" id="dateStrip" role="radiogroup" aria-label="Preferred date"></div>
+            <input type="hidden" name="preferred_date" id="preferredDate" />
+            <div class="chips windows">
+              <label><input type="radio" name="time_window" value="Morning (8am–12pm)" required /><span>Morning<small>8–12</small></span></label>
+              <label><input type="radio" name="time_window" value="Afternoon (12pm–4pm)" /><span>Afternoon<small>12–4</small></span></label>
+              <label><input type="radio" name="time_window" value="Evening (4pm–7pm)" /><span>Evening<small>4–7</small></span></label>
+              <label><input type="radio" name="time_window" value="First available" /><span>First available<small>ASAP</small></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><b>3</b> Where and who?</legend>
+            <div class="grid-2">
+              <div class="field"><label for="s-name">Full name</label><input id="s-name" name="name" autocomplete="name" required /></div>
+              <div class="field"><label for="s-phone">Phone</label><input id="s-phone" name="phone" type="tel" autocomplete="tel" required /></div>
+              <div class="field"><label for="s-email">Email</label><input id="s-email" name="email" type="email" autocomplete="email" required /></div>
+              <div class="field"><label for="s-zip">ZIP code</label><input id="s-zip" name="zip" inputmode="numeric" maxlength="5" autocomplete="postal-code" required /></div>
+              <div class="field span-2"><label for="s-address">Service address</label><input id="s-address" name="address" autocomplete="street-address" required /></div>
+              <div class="field span-2">
+                <label for="s-office">Closest home base</label>
+                <select id="s-office" name="office">
+                  <option value="Not sure">Not sure, you pick</option>
+                  <option value="North Houston Home Base">North Houston Home Base</option>
+                  <option value="Sienna Home Base">Sienna Home Base</option>
+                </select>
+              </div>
+              <div class="field span-2"><label for="s-notes">Tell us what's going on <span class="opt">(optional)</span></label><textarea id="s-notes" name="details" rows="3" placeholder="e.g. Upstairs unit blowing warm air since yesterday, Trane about 12 years old"></textarea></div>
+            </div>
+          </fieldset>
+
+          <div class="form-foot">
+            <button type="submit" class="btn btn-heat btn-lg">Request appointment</button>
+            <p class="fine">This is a request, not a confirmed booking. For emergencies, call or text <a href="tel:+13462687833">(346) 268-7833</a>.</p>
+          </div>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="wrap narrow">
+        <div class="section-head">
+          <p class="eyebrow">Good questions</p>
+          <h2>Frequently asked</h2>
+        </div>
+        <div class="faq">
+          <details><summary>How often should I service my AC in Houston?</summary><p>Twice a year: once in spring before the heat arrives and once in fall before heating season. Houston AC systems run almost year-round, so regular tune-ups make a big difference in efficiency and lifespan.</p></details>
+          <details><summary>Should I repair or replace my system?</summary><p>If your system is under about 10–12 years old and the repair is reasonable, repairing usually makes sense. We'll show you both options side by side, with honest numbers.</p></details>
+          <details><summary>Do you offer financing?</summary><p>Coming soon! We&rsquo;re setting up financing options for new systems. In the meantime, ask about it when you request an estimate and we&rsquo;ll keep you posted.</p></details>
+          <details><summary>What areas do you serve?</summary><p>All of Greater Houston. Our North Houston Home Base covers Spring, The Woodlands, Humble, Kingwood, Cypress and nearby areas. Our Sienna Home Base covers Missouri City, Sugar Land, Richmond, Pearland and Fort Bend County.</p></details>
+          <details><summary>What's the fastest way to reach you?</summary><p>Call or text us at <a href="tel:+13462687833">(346) 268-7833</a>. For non-urgent requests, the online appointment form works great, and we'll confirm quickly.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Questions? Send us a note.</h2>
+          <p>Need a quote, have a question about your system, or just want to talk? Send us a message and we'll reply by email or phone.</p>
+          <ul class="info-list">
+            <li><span>Call or text</span><a href="tel:+13462687833">(346) 268-7833</a></li>
+            <li><span>Online</span><a href="https://safetemphvac.com">safetemphvac.com</a></li>
+            <li><span>North</span>North Houston Home Base</li>
+            <li><span>South</span>Sienna Home Base</li>
+          </ul>
+        </div>
+
+        <form class="card form" id="contactForm" novalidate>
+          <input type="hidden" name="_subject" value="New Website Message – SafeTemp HVAC" />
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <div class="grid-2">
+            <div class="field"><label for="c-name">Name</label><input id="c-name" name="name" autocomplete="name" required /></div>
+            <div class="field"><label for="c-phone">Phone <span class="opt">(optional)</span></label><input id="c-phone" name="phone" type="tel" autocomplete="tel" /></div>
+            <div class="field span-2"><label for="c-email">Email</label><input id="c-email" name="email" type="email" autocomplete="email" required /></div>
+            <div class="field span-2"><label for="c-msg">Message</label><textarea id="c-msg" name="message" rows="5" required></textarea></div>
+          </div>
+          <div class="form-foot">
+            <button type="submit" class="btn btn-navy btn-lg">Send message</button>
+          </div>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a href="#top" class="logo logo-light">
+          <svg class="logo-mark" viewBox="0 0 40 44" aria-hidden="true">
+            <path d="M20 2 36 8v13c0 10.5-6.8 18.3-16 21C10.8 39.3 4 31.5 4 21V8Z" fill="#fff"/>
+            <rect x="17" y="10" width="6" height="17" rx="3" fill="var(--navy)"/>
+            <circle cx="20" cy="29" r="5.5" fill="var(--heat)"/>
+            <rect x="18.6" y="16" width="2.8" height="13" rx="1.4" fill="var(--heat)"/>
+          </svg>
+          <span class="logo-text">Safe<b>Temp</b><small>HVAC</small></span>
+        </a>
+        <p>Heating and cooling for Houston and surrounding areas.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="#services">AC Repair</a><a href="#services">Heating</a><a href="#services">Installs</a><a href="#services">Maintenance</a>
+      </div>
+      <div>
+        <h4>Home bases</h4>
+        <a href="#locations">North Houston Home Base</a><a href="#locations">Sienna Home Base</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+13462687833">Call or text (346) 268-7833</a><a href="https://safetemphvac.com">safetemphvac.com</a><a href="#schedule">Request an appointment</a>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© <span id="year"></span> SafeTemp HVAC. All rights reserved.</span>
+      <span>Proudly keeping Houston cool.</span>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky action bar -->
+  <div class="mobile-bar">
+    <a href="tel:+13462687833" class="btn btn-navy">📞 Call or text</a>
+    <a href="#schedule" class="btn btn-heat">Book online</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
