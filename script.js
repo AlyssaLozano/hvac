@@ -6,7 +6,7 @@
  * that needs no account. The FIRST submission sends an activation email to this
  * address. Click the link in it once, and every later submission goes to your inbox.
  */
-const SAFETEMP_EMAIL = "info@safetemphvac.com";
+const SAFETEMP_EMAIL = "curtis.lozano89@gmail.com";
 const FORM_ENDPOINT = `https://formsubmit.co/ajax/${SAFETEMP_EMAIL}`;
 
 /* ---------- Mobile nav ---------- */
